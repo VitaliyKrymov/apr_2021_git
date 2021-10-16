@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background: rgba(100, 149, 237, 0.2);
+}
+
+h1 {
+    height: 50px;
+    color: #0048ff;
+    text-align: center;
+}
+
+p.aboutActor {
+    text-align: center;
+    margin: 50px;
+    width: 1600px;
+    background: rgba(100, 149, 237, 0.21);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header > div {
+    padding: 50px
+
+}
+
+.header > div > p {
+    width: 600px;
+    padding: 10px
+}
+
+.maverick {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
