@@ -8,6 +8,9 @@ h1, h2 {
     color: #0048ff;
     text-align: center;
 }
+a:hover {
+    color: crimson;
+}
 
 p.aboutActor {
     text-align: center;
@@ -62,4 +65,7 @@ ul > li > ul {
 
 ul > li > ul > div > p {
     color: rgba(87, 20, 220, 0.55);
+}
+ul > li > ul > div > p:hover {
+    color: crimson;
 }
