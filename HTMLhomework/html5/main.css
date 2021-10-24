@@ -1,0 +1,27 @@
+*{margin: 0;
+    padding: 0;}
+:root{
+    --blue:#0b2e41;
+    --aqua:#00c7ea;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+.soc-icon {
+    background-color: var(--aqua);
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 25px;
+    column-gap: 5px;
+} 
+.soc-icon__link{
+    width: 25px;
+    height: 5px;
+    background-color: var(--blue);
+}
+
+ 

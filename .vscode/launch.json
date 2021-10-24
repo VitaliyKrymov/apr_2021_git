@@ -1,4 +1,4 @@
-"workbench.settings.useSplitJSON":true,
+{"workbench.settings.useSplitJSON":true,
 "files.insertFinalNewlines":true,
 "files.trimFinalNewlines":true,
 "files.trimTrailingWhiteapace":true,
@@ -14,3 +14,4 @@
 "gitLens.gitExplorer.location": "scm",
 "gitLens.historyExplorer.location": "scm",
 "gitLens.resultsExplorer.location": "scm",
+}

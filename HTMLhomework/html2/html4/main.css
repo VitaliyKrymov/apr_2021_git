@@ -1,0 +1,59 @@
+.box{
+    width: 500px;
+    height: 500px;
+    background:linear-gradient(royalblue,rgb(0, 162, 255)) ;
+}
+.wrap{
+    width: 500px;
+    height: 300px;
+    background: darkgray;
+    display: flex;
+}
+.a{
+    width: 500px;
+    height: 200px;
+    background: darkmagenta;
+}
+.b{
+    width: 200px;
+    height: 300px;
+    background: forestgreen;
+}
+.c{
+    width: 300px;
+    height: 300px;
+    background: darkturquoise;
+}
+#header{
+    background: gold;
+}
+.hed-foot{
+    width: 500px;
+    height: 100px;
+}
+#footer{
+    background: #ffee00;
+}
+#menu{
+    width: 250px;
+    height: 300px;
+    background:linear-gradient(to left, lime 28px, red 77%, cyan); ;
+}
+.post{
+    width: 250px;
+    height: 150px;
+    background: linear-gradient(rgba(0, 204, 255, 0.658),rgb(0, 255, 149))
+} 
+.litteBox{
+    width: 150px;
+    height: 200px;
+    background: royalblue;
+}
+.main{
+    width: 350px;
+    height: 300px;
+    background:rgb(0, 68, 255)}
+.aside{
+        width: 150px;
+        height: 300px;
+        background: rgb(0, 255, 106)}   
