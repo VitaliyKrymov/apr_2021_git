@@ -1,14 +1,20 @@
-*{margin: 0;
-    padding: 0;}
-:root{
-    --blue:#0b2e41;
-    --aqua:#00c7ea;
+* {
+    margin: 0;
+    padding: 0;
 }
-.wrapper{
+
+:root {
+    --blue: #0b2e41;
+    --aqua: #00c7ea;
+    --light: #c9cac4;
+}
+
+.wrapper {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 50px;
 }
+
 .soc-icon {
     background-color: var(--aqua);
     height: 48px;
@@ -17,11 +23,119 @@
     justify-content: flex-end;
     padding: 0 25px;
     column-gap: 5px;
-} 
-.soc-icon__link{
+    list-style: none;
+}
+
+.soc-icon__link {
     width: 25px;
     height: 5px;
     background-color: var(--blue);
 }
 
- 
+.header__top {
+    padding: 10px 0 20px;
+    background-color: var(--light);
+
+}
+
+.header__top_grid {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.header__logo {
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: var(--blue);
+}
+
+.nav__item {
+    display: inline-block;
+    margin-right: 15px;
+
+}
+
+.nav__item a {
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: color .5s;
+    color: var(--blue);
+    font-weight: 900;
+}
+
+.nav__item a:hover {
+    color: white;
+}
+
+.header__main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+    padding: 100px 0;
+    color: white;
+}
+
+.header__text {
+    width: 80%;
+    line-height: 24px;
+    text-align: center;
+    color: #000;
+}
+
+.header {
+    background-color: var(--aqua);
+}
+
+.header__main button {
+    margin: top 25px;
+    background-color: var(--blue);
+    width: 300px;
+    color: white;
+    border-radius: 20px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+}
+
+.products {
+    padding: 100px;
+    background-color: var(--light);
+}
+
+.pproducts_title {
+    align-items: center;
+}
+
+.products_grid {
+    border: 1px solid var(--aqua);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.products__list {
+    display: flex;
+    column-gap: 30px;
+}
+
+.products__item {
+    flex-grow: 1;
+}
+
+.product__item_img {
+    height: 200px;
+    background-color: var(--blue);
+    border-radius: 10px;
+
+}
+
+.products__item p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.about {}
