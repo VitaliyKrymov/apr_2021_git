@@ -18,12 +18,30 @@
 
     .nav__btn_mobile {
         display: flex;
-    }
 
+    }
     .nav__btn_mobile div {
-        width: 3px;
+        height: 3px;
         background: #ff7400;
         border-radius: 50px;
     }
+    .header__title{
+        max-width: 340px;
+        text-align: center;
+    }
 
+    .header__title h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .header__title h1 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .header__title p::before,
+    .header__title p::after {
+        display: none;
+    }
 }
