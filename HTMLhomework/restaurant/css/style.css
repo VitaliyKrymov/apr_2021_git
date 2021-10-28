@@ -132,13 +132,15 @@ table {
 }
 
 .wrapper {
-    max-width: 1200px;
+    max-width: 1440px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
 .header {
-    height: 100vh;
+    /*height: 100vh;*/
+    width: 1440px;
+    height: 800px;
     background: url("../image/bg.png") no-repeat center/cover;
 }
 
@@ -268,6 +270,61 @@ table {
     display: none;
     width: 30px;
     flex-direction: column;
-    row-gap:4px ;
+    row-gap: 4px;
+}
+
+.dishes {
+    width: 1440px;
+    height: 371px;
+    display: flex;
+    background-color: #E5E5E5;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.intro__box {
+    width: 1138px;
+    height: 328px;
+    position: relative;
+    top: -107px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro {
+    width: 349px;
+    height: 328px;
+    background-color: #FFFFFF;
+    position: relative;
+    box-shadow: 10px 10px 50px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.intro_img {
+    margin: 48px 132px 4px 130px;
+}
+
+.intro_plus {
+    Font-family: serif;
+    font-size: 26px;
+    line-height: 30px;
+    height: 26px;
+}
+
+.p_broun {
+    color: #BC9060;
+}
+
+.about_restaurant {
+    width: 376px;
+    height: 85px;
+    Font-family: serif;
+    font-size: 26px;
+    line-height: 30px;
+    margin-top: 20px;
+    text-align: center;
 }
 
