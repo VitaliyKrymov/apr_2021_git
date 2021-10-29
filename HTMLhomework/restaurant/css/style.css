@@ -309,9 +309,9 @@ table {
 
 .intro_plus {
     Font-family: serif;
-    font-size: 26px;
-    line-height: 30px;
-    height: 26px;
+    font-size: 24px;
+    line-height: 28px;
+    height: 24px;
 }
 
 .p_broun {
@@ -321,10 +321,48 @@ table {
 .about_restaurant {
     width: 376px;
     height: 85px;
-    Font-family: serif;
-    font-size: 26px;
-    line-height: 30px;
     margin-top: 20px;
     text-align: center;
+    Font-family: serif;
+    font-size: 22px;
+    line-height: 28px;
+    height: 22px;
+    color: #656363;
+}
+
+.our_story {
+    width: 1440px;
+    height: 620px;
+    display: flex;
+}
+
+.story_text {
+    width: 720px;
+    height: 620px;
+    background-color: #ff7400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.story_pictures {
+    width: 720px;
+    height: 620px;
+    background-color: rgba(87, 20, 220, 0.55);
+}
+
+.story {
+    width: 336px;
+    height: 62px;
+    margin: 16px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    Font-family: serif;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+
 }
 
