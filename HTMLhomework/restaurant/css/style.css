@@ -277,8 +277,7 @@ table {
     width: 1440px;
     height: 371px;
     display: flex;
-    background-color: rgba(255, 255, 255, 1);
-;
+    background-color: rgba(255, 255, 255, 1);;
     justify-content: center;
     box-sizing: border-box;
 }
@@ -335,8 +334,7 @@ table {
     width: 1440px;
     height: 620px;
     display: flex;
-    background-color: rgba(255, 255, 255, 1);
-;
+    background-color: rgba(255, 255, 255, 1);;
 }
 
 .story_text {
@@ -350,7 +348,7 @@ table {
 .story_pictures {
     width: 720px;
     height: 620px;
-    background-color: rgba(87, 20, 220, 0.55);
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .story {
@@ -366,7 +364,8 @@ table {
     line-height: 62px;
     color: #000000;
 }
-.text_about_restaurant{
+
+.text_about_restaurant {
     text-align: center;
     width: 444px;
     height: 217px;
@@ -376,7 +375,8 @@ table {
     line-height: 21.79px;
     color: #656363;
 }
-.number_of_dishes{
+
+.number_of_dishes {
     display: flex;
     width: 444px;
     height: 122px;
@@ -384,7 +384,7 @@ table {
     column-gap: 20px;
 }
 
-.one_number_of_dishes{
+.one_number_of_dishes {
     margin-top: 39px;
     width: 84px;
     height: 83px;
@@ -392,7 +392,8 @@ table {
     justify-content: center;
     flex-direction: column;
 }
-.number{
+
+.number {
     width: 84px;
     text-align: center;
     Font-family: "Open Sans";
@@ -401,7 +402,8 @@ table {
     line-height: 54px;
     color: #BC9060;
 }
-.dish{
+
+.dish {
     width: 84px;
     height: 27px;
     Font-family: "Open Sans";
@@ -411,40 +413,106 @@ table {
     color: #000000;
     text-align: center;
 }
-.story_pictures{
+
+.story_pictures {
     display: flex;
     align-items: center;
 }
-.images{
-    display: flex;
-    position: relative;
-}
-.images{
+
+.images {
     position: relative;
     width: 539px;
     height: 498px;
 }
-.imag1{
 
+.imag1 {
     position: absolute;
-    margin-top: 65px;
+    margin-top: 34px;
+    z-index: 2;
 }
-.imag2{
+
+.imag2 {
     position: absolute;
     margin-left: 190px;
+    z-index: 1;
 }
-.imag3{
-    /*display: flex;*/
+
+.imag3 {
     position: absolute;
     margin-left: 284px;
-    margin-top: 99px;
-
+    margin-top: 197px;
+    z-index: 3;
 }
-.imag4{
-    /*display: flex;*/
+
+.imag4 {
     position: absolute;
     margin-left: 285px;
     margin-top: 35px;
+}
 
+.bg1 {
+    width: 1440px;
+    height: 357px;
+    background: url("../image/bg1.png") no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.bg1_text_box {
+    display: flex;
+    flex-direction: column;
+    /*background: #ff7400;*/
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.bg_text_box1 {
+    margin-left: 165px;
+    align-items: center;
+    width: 601px;
+    height: 120px;
+    /*text-align: center;*/
+    Font-family: "Open Sans";
+    font-style: normal;
+    font-size: 40px;
+    line-height: 54px;
+    color: #D67E34;
 
 }
+
+/*.bg_text_box1>p{*/
+/*    margin-top: 80px;*/
+
+.bg_text_box2 {
+    width: 601px;
+    height: 33px;
+    margin-top: 20px;
+    margin-left: 165px;
+    /*text-align: center;*/
+    Font-family: "Open Sans";
+    font-style: normal;
+    font-size: 24px;
+    line-height: 100%;
+    color: #FFFFFF;
+    /*background-color: greenyellow;*/
+}
+.bg1_button{
+    margin-left: 331px;
+}
+.our_dishes_menu{
+    height: 337px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    align-items: center;
+    Font-family: "Tinos";
+    font-style: normal;
+    font-size: 54px;
+    line-height: 62px;
+
+}
+
+
