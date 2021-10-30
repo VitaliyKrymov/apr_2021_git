@@ -277,7 +277,8 @@ table {
     width: 1440px;
     height: 371px;
     display: flex;
-    background-color: #E5E5E5;
+    background-color: rgba(255, 255, 255, 1);
+;
     justify-content: center;
     box-sizing: border-box;
 }
@@ -334,12 +335,13 @@ table {
     width: 1440px;
     height: 620px;
     display: flex;
+    background-color: rgba(255, 255, 255, 1);
+;
 }
 
 .story_text {
     width: 720px;
     height: 620px;
-    background-color: #ff7400;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -354,7 +356,7 @@ table {
 .story {
     width: 336px;
     height: 62px;
-    margin: 16px;
+    margin-top: 16px;
     display: flex;
     text-align: center;
     justify-content: space-between;
@@ -363,6 +365,86 @@ table {
     font-size: 54px;
     line-height: 62px;
     color: #000000;
-
+}
+.text_about_restaurant{
+    text-align: center;
+    width: 444px;
+    height: 217px;
+    margin-top: 21px;
+    Font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 21.79px;
+    color: #656363;
+}
+.number_of_dishes{
+    display: flex;
+    width: 444px;
+    height: 122px;
+    justify-content: center;
+    column-gap: 20px;
 }
 
+.one_number_of_dishes{
+    margin-top: 39px;
+    width: 84px;
+    height: 83px;
+
+    justify-content: center;
+    flex-direction: column;
+}
+.number{
+    width: 84px;
+    text-align: center;
+    Font-family: "Open Sans";
+    font-style: normal;
+    font-size: 40px;
+    line-height: 54px;
+    color: #BC9060;
+}
+.dish{
+    width: 84px;
+    height: 27px;
+    Font-family: "Open Sans";
+    font-style: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    text-align: center;
+}
+.story_pictures{
+    display: flex;
+    align-items: center;
+}
+.images{
+    display: flex;
+    position: relative;
+}
+.images{
+    position: relative;
+    width: 539px;
+    height: 498px;
+}
+.imag1{
+
+    position: absolute;
+    margin-top: 65px;
+}
+.imag2{
+    position: absolute;
+    margin-left: 190px;
+}
+.imag3{
+    /*display: flex;*/
+    position: absolute;
+    margin-left: 284px;
+    margin-top: 99px;
+
+}
+.imag4{
+    /*display: flex;*/
+    position: absolute;
+    margin-left: 285px;
+    margin-top: 35px;
+
+
+}
