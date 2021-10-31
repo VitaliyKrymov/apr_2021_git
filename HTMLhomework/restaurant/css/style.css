@@ -496,12 +496,13 @@ table {
     font-size: 24px;
     line-height: 100%;
     color: #FFFFFF;
-    /*background-color: greenyellow;*/
 }
-.bg1_button{
+
+.bg1_button {
     margin-left: 331px;
 }
-.our_dishes_menu{
+
+.our_dishes_menu {
     height: 337px;
     width: 1440px;
     display: flex;
@@ -515,38 +516,42 @@ table {
 
 }
 
-.image__dishes_menu{
+.image__dishes_menu {
     display: flex;
     width: 1440px;
     height: 476px;
 
 }
-.wrapper_pizza{
+
+.wrapper_pizza {
     width: 610px;
     display: flex;
     justify-content: flex-end;
 }
-.wrap__dishes_menu{
+
+.wrap__dishes_menu {
     width: 750px;
     height: 474px;
     display: flex;
     /*margin-left: 20px;*/
     flex-direction: column;
     justify-content: space-between;
-
 }
-.little_image_and_price{
+
+.little_image_and_price {
     width: 210px;
     height: 140px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.wrap_little_menu{
+
+.wrap_little_menu {
     display: flex;
     align-items: center;
 }
-.dishes_name{
+
+.dishes_name {
     width: 181px;
     height: 30px;
     display: flex;
@@ -557,14 +562,15 @@ table {
     font-style: normal;
     font-size: 26px;
     line-height: 30px;
-
 }
-.vector{
+
+.vector {
     width: 204px;
     height: 0px;
-    border: dotted black ;
+    border: dotted black;
 }
-.price{
+
+.price {
     width: 70px;
     height: 30px;
     Font-family: "Tinos";
@@ -572,10 +578,210 @@ table {
     font-size: 26px;
     line-height: 30px;
 }
-.bar{
+
+.bar {
     width: 1440px;
     height: 1034px;
     margin-top: 152px;
-    background: url("../image/bar.png")no-repeat center/cover ;
+    background: url("../image/bar.png") no-repeat center/cover;
+}
+
+.our_menu {
+    width: 270px;
+    height: 62px;
+    position: absolute;
+    display: flex;
+    margin-top: 98px;
+    margin-left: 590px;
+    align-items: center;
+    font-family: Tinos;
+    font-size: 54px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+.bar_menu{
+    width: 1110px;
+    height: 510px;
+    margin-top: 298px;
+    margin-left: 165px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bar_menu_items{
+    width: 350px;
+    height: 510px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.recomendid{
+    position: absolute;
+    width: 124px;
+    height: 36px;
+    background-color: #D67E34;
+    margin-right: 226px;
+    box-sizing: border-box;
+    padding: 7px 11px 11px 12px;
+    font-family: "Open Sans";
+    font-size: 13px;
+    line-height: 18px;
+
+}
+.bar_img{
+    margin-top: 80px;
+    width: 231px;
+    height: 231px;
+}
+.burger_box_img{
+    border-radius: 50%;
+    position: absolute;
+}
+.bar_img_prise{
+    position: absolute;
+    margin-left: 131px;
+    margin-top: 131px;
+}
+.bar_item_menu_name{
+    margin-top: 16px;
+    Font-family: "Tinos";
+    font-style: normal;
+    font-size: 26px;
+    line-height: 30px;
+}
+.bar_item_menu_property{
+    margin-top: 16px;
+    Font-family: "Open Sans";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.bar__button {
+    width: 220px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 0 19px;
+    background-color: #D67E34;
+    border: none;
+    cursor: pointer;
+}
+.bar_item_price{
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 33px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 160px;
+    margin-top: 165px;
+    text-align: center;
+    font-family: Cookie;
+    font-style: normal;
+}
+/*SLIDER*/
+#slider{/*pologenie slidera*/
     position: relative;
+    text-align: center;
+    top: 10px;
+}
+#slider{
+    margin: 0 auto;
+}
+#slider article{
+    width: 20%;
+    float: left;
+}
+#slides .img_slider{/*p-p bloka c izobrogeniem*/
+    width:100%;
+    line-height: 0;
+}
+#overflow{/*skrivaet vse chto naxoditsia za predelami bloka*/
+    width: 100%;
+    overflow: hidden;
+}
+article img{/*p-p izobrageniy slaydera*/
+    width: 100%;
+}
+#desktop:checked ~ #slider{/*p-p slidera*/
+    max-width: 960px;
+}
+#swich1:checked ~ #controls label:nth-child(3),
+#swich2:checked ~ #controls label:nth-child(1),
+#swich3:checked ~ #controls label:nth-child(2){
+    background: red;
+    float: left;
+    margin: 0 0 0 -84px;
+    display: block;
+    height: 68px;
+    width: 68px;
+}
+#swich1:checked ~ #controls label:nth-child(3),
+#swich2:checked ~ #controls label:nth-child(1),
+#swich3:checked ~ #controls label:nth-child(2){
+    background: green;
+    float: right;
+    margin: 0 -84px 0 0;
+    display: block;
+    height: 68px;
+    width: 68px;
+}
+label, a{/*izmenim kursor*/
+    corsor: pointer:
+}
+.all input{/*skrivaem standartnie inputi(chekboksi) yf stranise*/
+    display: none;
+}
+/*pozisia izobragenia pri aktivasii perekluchatelia*/
+#swich1:checked ~ #slides .img_slider{
+    margin-left: 0;
+}
+#swich2:checked ~ #slides .img_slider{
+    margin-left: 100%;
+}
+#swich2:checked ~ #slides .img_slider{
+     margin-left: 200%;
+ }
+#controls{/*pologenie bloka vsex upravliauchix elementov*/
+    margin: -25% 0 0 0;
+    width: 100%;
+    height: 50px;
+}
+#active lable{/*stil perekluchatelia*/
+    border-radius: 10px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: #c9cac4;
+}
+#active{/*raspologenie bloka s perekluchateliami*/
+    margin: 23% 0 0;
+    text-align: center;
+}
+#active label:hover{/*povederie chekboksa pri navedenii*/
+    background: #76c8ff;
+    background-color: #777 !important;/*vipolnenie v lubom slushae*/
+}
+
+/*cvet aktivnogo perekluchatelia*/
+#swich1:checked ~ #active label;nth-child(1),
+#swich2:checked ~ #active label;nth-child(2),
+#swich3:checked ~ #active label;nth-child(3){
+    background: #18a3dd;
+    background-color: #18a3dd !important;
+}
+#slides .image{/*animasia prolistivania isobrageniy*/
+    transition: all 800ms cubic-bezier(0.770,0.000, 0.175,1.000);
+}
+#controls ladel:hover{/*prozrachnost strelok pri navedenii*/
+    opacity: 0.6;
+}
+#controls label{/*prozrachnost strelok pri otvode kursora*/
+    transition: opacity 0.2s ease-out;
 }
