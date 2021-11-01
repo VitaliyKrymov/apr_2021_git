@@ -685,6 +685,20 @@ table {
     font-family: Cookie;
     font-style: normal;
 }
+
+.testimonial{
+    width: 1440px;
+    height: 500px;
+    display: block;
+    justify-content: center;
+}
+.slider_box{
+     width: 1440px;
+     height: 500px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
 /*SLIDER*/
 .all{
     width: 600px;
@@ -801,3 +815,4 @@ label, a{/*pri navedenii na strelki izmenim kursor na pales pri navedenii*/
 #controls label{/*plavnaya prozrachnost strelok pri otvode kursora*/
     transition: opacity 0.2s ease-out;
 }
+/*end slider*/
