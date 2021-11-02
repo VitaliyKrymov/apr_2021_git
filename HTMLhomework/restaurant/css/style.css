@@ -323,6 +323,7 @@ table {
 
 .about_restaurant {
     width: 376px;
+    height: 85px;
     margin-top: 20px;
     text-align: center;
     Font-family: serif;
@@ -716,8 +717,8 @@ table {
 /*}*/
 
 .wrapper_slider {
-    height: 550px;
-    /*margin: 100px auto 0;*/
+    height: 350px;
+    margin: 100px auto 0;
     position: relative;
     width: 1440px;
     background-color: rgba(229, 229, 229, 1);
@@ -756,7 +757,9 @@ table {
 /*.slide3 { background-image: url(http://3.jpg); }*/
 #slide1:checked ~ .slider > .slide1,
 #slide2:checked ~ .slider > .slide2,
-#slide3:checked ~ .slider > .slide3 {
+#slide3:checked ~ .slider > .slide3,
+#slide4:checked ~ .slider > .slide4,
+#slide5:checked ~ .slider > .slide5 {
     opacity: 1;
     z-index: 1;
     -webkit-transform: scale(1);
