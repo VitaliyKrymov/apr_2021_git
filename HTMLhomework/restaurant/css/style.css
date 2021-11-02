@@ -143,6 +143,9 @@ table {
     height: 800px;
     background: url("../image/bg.png") no-repeat center/cover;
 }
+.header__main.wrapper{
+    padding-left: 170px;
+}
 
 .header__top {
     padding-top: 50px;
@@ -320,7 +323,6 @@ table {
 
 .about_restaurant {
     width: 376px;
-    height: 85px;
     margin-top: 20px;
     text-align: center;
     Font-family: serif;
@@ -599,7 +601,8 @@ table {
     line-height: 62px;
     color: #FFFFFF;
 }
-.bar_menu{
+
+.bar_menu {
     width: 1110px;
     height: 510px;
     margin-top: 298px;
@@ -609,7 +612,8 @@ table {
     justify-content: space-between;
     align-items: center;
 }
-.bar_menu_items{
+
+.bar_menu_items {
     width: 350px;
     height: 510px;
     background: white;
@@ -618,7 +622,8 @@ table {
     align-items: center;
 
 }
-.recomendid{
+
+.recomendid {
     position: absolute;
     width: 124px;
     height: 36px;
@@ -631,28 +636,33 @@ table {
     line-height: 18px;
 
 }
-.bar_img{
+
+.bar_img {
     margin-top: 80px;
     width: 231px;
     height: 231px;
 }
-.burger_box_img{
+
+.burger_box_img {
     border-radius: 50%;
     position: absolute;
 }
-.bar_img_prise{
+
+.bar_img_prise {
     position: absolute;
     margin-left: 131px;
     margin-top: 131px;
 }
-.bar_item_menu_name{
+
+.bar_item_menu_name {
     margin-top: 16px;
     Font-family: "Tinos";
     font-style: normal;
     font-size: 26px;
     line-height: 30px;
 }
-.bar_item_menu_property{
+
+.bar_item_menu_property {
     margin-top: 16px;
     Font-family: "Open Sans";
     font-style: normal;
@@ -661,6 +671,7 @@ table {
     text-align: center;
     margin-bottom: 20px;
 }
+
 .bar__button {
     width: 220px;
     height: 50px;
@@ -673,7 +684,8 @@ table {
     border: none;
     cursor: pointer;
 }
-.bar_item_price{
+
+.bar_item_price {
     color: #FFFFFF;
     font-size: 30px;
     line-height: 33px;
@@ -686,12 +698,13 @@ table {
     font-style: normal;
 }
 
-.testimonial{
+.testimonial {
     width: 1440px;
-    height: 500px;
+    height: 460px;
     display: block;
     justify-content: center;
 }
+
 /*SLIDER*/
 /** {*/
 /*    margin: 0;*/
@@ -702,15 +715,13 @@ table {
 /*    box-sizing: border-box;*/
 /*}*/
 
-/*body {*/
-/*    background-image: url(http://habrastorage.org/files/996/d76/d04/996d76d0410d422fa54cc433ce7ead2a.png);*/
-/*}*/
-
 .wrapper_slider {
-    height: 350px;
-    margin: 100px auto 0;
+    height: 550px;
+    /*margin: 100px auto 0;*/
     position: relative;
-    width: 700px;
+    width: 1440px;
+    background-color: rgba(229, 229, 229, 1);
+
 }
 
 .slider {
@@ -718,10 +729,10 @@ table {
     overflow: hidden;
     position: relative;
     width: inherit;
-    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
-    -moz-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
-    -o-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
-    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+    /*-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .5);*/
+    /*-moz-box-shadow: 0 0 20px rgba(0, 0, 0, .5);*/
+    /*-o-box-shadow: 0 0 20px rgba(0, 0, 0, .5);*/
+    /*box-shadow: 0 0 20px rgba(0, 0, 0, .5);*/
 }
 
 .slides {
@@ -743,14 +754,9 @@ table {
 /*.slide1 { background-image: url(http://9.jpg); }*/
 /*.slide2 { background-image: url(http://0e.jpg); }*/
 /*.slide3 { background-image: url(http://3.jpg); }*/
-/*.slide4 { background-image: url(http://a.jpg); }*/
-/*.slide5 { background-image: url(http://a.jpg}*/
-
 #slide1:checked ~ .slider > .slide1,
 #slide2:checked ~ .slider > .slide2,
-#slide3:checked ~ .slider > .slide3,
-#slide4:checked ~ .slider > .slide4,
-#slide5:checked ~ .slider > .slide5 {
+#slide3:checked ~ .slider > .slide3 {
     opacity: 1;
     z-index: 1;
     -webkit-transform: scale(1);
@@ -764,9 +770,11 @@ table {
 }
 
 .wrapper_slider .controls {
-    left: 50%;
-    margin-left: -98px;
-    position: absolute;
+    left: 52.5%;
+    margin-left: -100px;
+    position: relative;
+
+
 }
 
 .wrapper_slider label {
@@ -778,7 +786,7 @@ table {
     width: 8px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
-    -o-border-radius: 50%;
+    /*-o-border-radius: 50%;*/
     border-radius: 50%;
     -webkit-transition: background ease-in-out .5s;
     -moz-transition: background ease-in-out .5s;
@@ -789,14 +797,12 @@ table {
 .wrapper_slider label:hover,
 #slide1:checked ~ .controls label:nth-of-type(1),
 #slide2:checked ~ .controls label:nth-of-type(2),
-#slide3:checked ~ .controls label:nth-of-type(3),
-#slide4:checked ~ .controls label:nth-of-type(4),
-#slide5:checked ~ .controls label:nth-of-type(5) {
-    background: #ddd;
+#slide3:checked ~ .controls label:nth-of-type(3) {
+    background: #fa974f;
 }
 
 .wrapper_slider label:after {
-    border: 2px solid #ddd;
+    border: 2px solid rgba(158, 160, 162, 0.68);
     content: " ";
     display: block;
     height: 12px;
@@ -806,6 +812,70 @@ table {
     width: 12px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
-    -o-border-radius: 50%;
+    /*-o-border-radius: 50%;*/
     border-radius: 50%;
+
+}
+
+.slides p {
+    color: #000000;
+    font-size: 20px;
+    line-height: 27px;
+    font-family: "Open Sans";
+    font-style: italic;
+    text-align: center
+}
+
+/*End SLIDER*/
+.dop_box {
+    background-color: rgba(229, 229, 229, 1);
+    width: 1440px;
+    height: 200px;
+}
+
+.wrap_galary_dishes {
+    height: 182px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.galary_dishes_images {
+    display: flex;
+}
+
+.wrap_galary_dishes_images {
+    width: 1440px;
+    height: 578px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_row {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrap_our_cooks {
+    display: flex;
+    align-items: center;
+    height: 266px;
+}
+
+.cooks_images {
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+}
+
+.img_row_cooks {
+    display: flex;
+    justify-content: space-between;
+    width: 1080px;
+    margin-bottom: 100px;
+
 }
