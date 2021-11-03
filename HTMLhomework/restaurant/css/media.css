@@ -44,4 +44,15 @@
     .header__title p::after {
         display: none;
     }
+    .header__main.wrapper{
+        padding-left: 10px;
+    }
+    .h2{
+        margin-left: 0;
+    }
+    .intro__box {
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
 }
