@@ -277,7 +277,6 @@ table {
 
 }
 
-
 .dishes {
     width: 1440px;
     height: 371px;
@@ -381,6 +380,9 @@ table {
     line-height: 21.79px;
     color: #656363;
 }
+.text_about_restaurant_mobile{
+    display: none;
+}
 
 .number_of_dishes {
     display: flex;
@@ -394,7 +396,6 @@ table {
     margin-top: 39px;
     width: 84px;
     height: 83px;
-
     justify-content: center;
     flex-direction: column;
 }
@@ -423,6 +424,9 @@ table {
 .story_pictures {
     display: flex;
     align-items: center;
+}
+.story_pictures_mobile{
+    display: none;
 }
 
 .images {

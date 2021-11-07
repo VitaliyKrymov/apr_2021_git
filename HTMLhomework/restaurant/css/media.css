@@ -65,21 +65,138 @@
     }
 
     .intro__box {
-       display: block;
+
+        display: block;
         /*flex-direction: column;*/
     }
 
-    .dishes  {
-        height: 400px;
+    .dishes.wrapper {
+        width: 400px;
+        height: 1000px;
+    }
+
+    .intro__box {
+        width: 400px;
+        height: 1015px;
         display: flex;
         justify-content: center;
         flex-direction: column;
-     column-gap: 10px;
-    }
+        row-gap: 14px;
+        top: 0;
+        align-items: center;
 
     }
-    /*.intro{*/
-    /*    width: 290px;*/
-    /*    height: 276px;*/
-    /*}*/
+
+    .intro {
+        width: 340px;
+        height: 328px;
+        position: relative;
+        top: -100px;
+
+    }
+
+    .about_restaurant {
+        width: 290px;
+        height: 85px;
+        font-size: 22px;
+        line-height: 25px;
+        height: 22px;
+    }
+
+    .our_story.wrapper {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+        height: 1150px;
+        display: block;
+        background-color: rgba(255, 255, 255, 1);;
+    }
+
+    .story_text {
+        width: 340px;
+        height: 830px;
+    }
+
+    .story {
+        width: 181px;
+        height: 92px;
+        margin-top: 16px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+        Font-family: serif;
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .text_about_restaurant {
+        display: none;
+    }
+
+    .text_about_restaurant_mobile {
+        display: block;
+        margin-top: 48px;
+        text-align: center;
+        width: 400px;
+        height: 280px;
+        margin-top: 21px;
+        Font-family: "Open Sans";
+        font-size: 15px;
+        line-height: 21.79px;
+        color: #656363;
+    }
+
+    .number_of_dishes {
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        height: 380px;
+        justify-content: center;
+        column-gap: 20px;
+        align-items: center;
+    }
+
+    .story_pictures {
+        display: none;
+    }
+
+    .story_pictures_mobile {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .images {
+        width: 320px;
+        height: 325px;
+    }
+
+    .imag1 {
+        margin-top: 0;
+    }
+
+    .imag2 {
+        margin-left: 117px;
+    }
+
+    .imag3 {
+        margin-left: 170px;
+        margin-top: 105px;
+    }
+
+    .imag4 {
+        margin-left: 170px;
+        margin-top: 20px;
+    }
+    .bg1{
+        width: 320px;
+        height: 357px;
+    }
+
 }
