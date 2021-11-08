@@ -513,7 +513,7 @@ table {
 }
 
 .our_dishes_menu {
-    height: 337px;
+    height: 160px;
     width: 1440px;
     display: flex;
     justify-content: center;
@@ -847,9 +847,9 @@ table {
 }
 
 .wrap_galary_dishes {
-    margin-top: 150px;
-    height: 182px;
-    padding-top: 20px;
+    margin-top: 300px;
+    height: 220px;
+    padding-top: 40px;
     box-sizing: border-box;
     margin-bottom: 20px;
 }
