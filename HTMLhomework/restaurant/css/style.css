@@ -511,6 +511,9 @@ table {
 .bg1_button {
     margin-left: 331px;
 }
+.bg1_button_mobile{
+    display: none;
+}
 
 .our_dishes_menu {
     height: 160px;
@@ -524,6 +527,11 @@ table {
     font-size: 54px;
     line-height: 62px;
 
+}
+.gamburger_mobile{
+    width: 464px;
+    display: flex;
+    align-items: center;
 }
 
 .image__dishes_menu {
