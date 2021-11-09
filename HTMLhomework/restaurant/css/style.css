@@ -138,12 +138,13 @@ table {
 }
 
 .header {
-   /*height: 100vh;*/
+    /*height: 100vh;*/
     width: 1440px;
     height: 800px;
     background: url("../image/bg.png") no-repeat center/cover;
 }
-.header__main.wrapper{
+
+.header__main.wrapper {
     padding-left: 170px;
 }
 
@@ -380,7 +381,8 @@ table {
     line-height: 21.79px;
     color: #656363;
 }
-.text_about_restaurant_mobile{
+
+.text_about_restaurant_mobile {
     display: none;
 }
 
@@ -425,7 +427,8 @@ table {
     display: flex;
     align-items: center;
 }
-.story_pictures_mobile{
+
+.story_pictures_mobile {
     display: none;
 }
 
@@ -511,7 +514,8 @@ table {
 .bg1_button {
     margin-left: 331px;
 }
-.bg1_button_mobile{
+
+.bg1_button_mobile {
     display: none;
 }
 
@@ -528,7 +532,8 @@ table {
     line-height: 62px;
 
 }
-.gamburger_mobile{
+
+.gamburger_mobile {
     width: 464px;
     display: flex;
     align-items: center;
@@ -551,7 +556,6 @@ table {
     width: 750px;
     height: 474px;
     display: flex;
-    /*margin-left: 20px;*/
     flex-direction: column;
     justify-content: space-between;
 }
@@ -715,7 +719,7 @@ table {
     font-style: normal;
 }
 
-.testimonial.wrapper{
+.testimonial.wrapper {
     width: 1440px;
     height: 460px;
     display: block;
@@ -742,13 +746,14 @@ table {
 }
 
 .slider {
-    height: 550px;/*inherit*/
+    height: 550px; /*inherit*/
     overflow: hidden;
     position: relative;
     width: inherit;
 
 }
-.slides slide1{
+
+.slides slide1 {
     display: flex;
     justify-content: center;
 }
@@ -774,7 +779,7 @@ table {
 /*.slide3 { background-image: url(http://3.jpg); }*/
 #slide1:checked ~ .slider > .slide1,
 #slide2:checked ~ .slider > .slide2,
-#slide3:checked ~ .slider > .slide3{
+#slide3:checked ~ .slider > .slide3 {
     opacity: 1;
     z-index: 1;
     -webkit-transform: scale(1);
@@ -792,6 +797,7 @@ table {
     margin-left: -100px;
     position: relative;
 }
+
 /*.controls{*/
 /*    width: 200px;*/
 /*}*/
@@ -850,8 +856,13 @@ table {
     background-color: rgba(229, 229, 229, 1);
     width: 1440px;
     height: 200px;
-     /*margin: 0 100px 0 100px;*/
+    /*margin: 0 100px 0 100px;*/
     /*padding: 0;*/
+}
+
+.testimonial_1 {
+    text-align: center;
+    margin-top: 40px;
 }
 
 .wrap_galary_dishes {
@@ -890,6 +901,10 @@ table {
     height: 266px;
 }
 
+.wrap_galary_dishes_images_mobile.wrapper {
+    display: none;
+}
+
 .cooks_images {
     width: 1440px;
     display: flex;
@@ -902,4 +917,8 @@ table {
     width: 1080px;
     margin-bottom: 100px;
 
+}
+
+.picture_restaurant_mobile.wrapper {
+    display: none;
 }

@@ -27,6 +27,10 @@
         border-radius: 50px;
     }
 
+    .header.wrapper {
+        width: 380px;
+    }
+
     .header__title {
         max-width: 340px;
         text-align: center;
@@ -173,7 +177,7 @@
     }
 
     .images {
-        width: 320px;
+        width: 380px;
         height: 325px;
     }
 
@@ -194,26 +198,31 @@
         margin-left: 170px;
         margin-top: 20px;
     }
-    .bg1{
+
+    .bg1 {
         width: 400px;
         height: 357px;
     }
+
     .our_story.wrapper {
         width: 400px;
         margin-left: 30px;
-        }
-    .bg1.wrapper{
+    }
+
+    .bg1.wrapper {
         width: 400px;
         height: 357px;
-       justify-content: center;
+        justify-content: center;
     }
-    .bg1_text_box{
+
+    .bg1_text_box {
         width: 290px;
         height: 300px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
     }
+
     .bg_text_box1 {
         margin-left: 0px;
         width: 220px;
@@ -222,6 +231,7 @@
         line-height: 34px;
         text-align: center;
     }
+
     .bg_text_box2 {
         width: 290px;
         height: 66px;
@@ -230,31 +240,168 @@
         margin: 21px 0 0 10px;
         text-align: center;
     }
-    .bg1_button{
+
+    .bg1_button {
         display: none;
     }
-    .bg1_button_mobile{
+
+    .bg1_button_mobile {
         display: flex;
         margin-top: 30px;
     }
-    .our_dishes_menu.wrapper{
+
+    .our_dishes_menu.wrapper {
         flex-direction: column;
         margin: 60px 0 60px 0;
     }
-    .image__dishes_menu{
+
+    .image__dishes_menu {
         flex-direction: column;
         row-gap: 50px;
         height: 1150px;
     }
-    .wrap__dishes_menu{
+
+    .wrap__dishes_menu {
         row-gap: 100px;
     }
-    .wrapper_pizza{
-       justify-content: flex-start;
-    }
-    .gamburger_mobile{
-        flex-direction: column;
 
+    .wrapper_pizza {
+        justify-content: flex-start;
+    }
+
+    .little_image_and_price {
+        width: 170px;
+        height: 113px;
+    }
+
+    .vector {
+        display: none
+    }
+
+    .gamburger_mobile {
+        width: 167px;
+        height: 68px;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 25px;
+    }
+
+    .wrap__dishes_menu {
+        height: 500px;
+    }
+
+    .bar {
+        margin-top: 35px;
+        padding: 0;
+        width: 400px;
+        height: 1000px;
+        background: url("../image/barMobile.png") no-repeat center/cover;
+    }
+
+    .our_menu {
+        margin-top: 64px;
+        margin-left: 64px;
+    }
+
+    .bar_menu_items.noMobBar_menu {
+        display: none;
+    }
+
+    .bar_menu {
+        width: 400px;
+        height: 510px;
+        margin-top: 250px;
+        margin-left: 0px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+    }
+
+    .testimonial.wrapper {
+        width: 400px;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .wrapper_slider {
+        width: 400px;
+    }
+
+    .wrapper_slider .controls {
+        left: 60%;
+    }
+
+    .slider {
+        height: 600px;
+    }
+
+    .slides.slide1 {
+        height: 600px;
+    }
+
+    .testimonial_1 {
+        width: 360px;
+        margin-left: 30px;
+    }
+
+    .dop_box {
+        width: 400px;
+    }
+
+    .our_dishes_menu {
+        width: 400px;
+        flex-direction: column;
+    }
+
+    .wrap_galary_dishes.wrapper {
+        margin-top: 350px;
+    }
+
+    .img_row {
+        width: 400px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    .wrap_galary_dishes_images {
+        display: none;
+    }
+
+    .wrap_galary_dishes_images_mobile.wrapper {
+        display: flex;
+        width: 400px;
+        height: 2222px;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .cooks_images.wrapper {
+        width: 400px;
+        height: 1460px;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .img_row_cooks {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .picture_restaurant.wrapper {
+        display: none;
+    }
+
+    .picture_restaurant_mobile.wrapper {
+        display: flex;
     }
 
 }
