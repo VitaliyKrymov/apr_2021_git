@@ -422,7 +422,7 @@ const Tania = new Client(8, 'Tania', 'Miller', 'Tania@ukr.net', '+380675747851',
 const Sveta = new Client(1, 'Sveta', 'Davis', 'Sveta@ukr.net', '+380675748333', ['Ear', 'vine Martini']);
 const Sasha = new Client(2, 'Sasha', 'Dias', 'Sasha@ukr.net', '+380675748444', ['Pilaf', 'vine Martini Bianka', 'salad']);
 
-let ClientArr = [Kristi, Katia, Karina, Klara, Klava, Kira, Olia, Tania, Sveta, Sasha];
+let ClientArr = [Kristina, Katia, Karina, Klara, Klava, Kira, Olia, Tania, Sveta, Sasha];
 console.log(ClientArr);
 
 let newArr = [];
